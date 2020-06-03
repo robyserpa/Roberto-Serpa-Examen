@@ -1,0 +1,180 @@
+/*cabecera*/
+.cabecera {
+    width: 100%;
+    text-align: center;
+}
+
+#logo {
+    width: 25%;
+    margin: 3% auto;
+    float: left;
+}
+
+#buscar {
+    text-align: center;
+    vertical-align: middle;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 50%;
+    margin: 5% 1%;
+    float: left;
+}
+
+#buscar input {
+    width: 80%;
+    margin: 3% auto;
+    float: none;
+}
+
+#ajustes1 {
+    width: 5%;
+    margin: 5% 1%;
+    float: left;
+}
+
+#ajustes2 {
+    width: 5%;
+    margin: 5% 1%;
+    float: left;
+}
+
+#ajustes3 {
+    width: 5%;
+    margin: 5% 1%;
+    float: left;
+}
+
+
+.cabecera nav{
+    clear: both;
+    width: 100%;
+    float: left;
+}
+
+.cabecera ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.cabecera nav a {
+    width: 11%;
+    border-radius: 10px;
+    border: solid;
+    margin: 1% 0.5%;
+    text-decoration: unset;
+    color: black;
+    float: left;
+}
+
+.cabecera nav a:link {
+    color: black;
+}
+
+.cabecera nav a:visited {
+    color: blueviolet;
+}
+
+.cabecera nav a:hover {
+    color: red;
+}
+
+.cabecera nav a:active {
+    color: lime;
+}
+
+.cabecera h1 {
+    clear: both;
+}
+/*fin cabecera*/
+
+
+/* Footer*/
+footer {
+    clear: both;
+}
+
+.contactar {
+    clear: both;
+    background-color: linen;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.contactar aside {
+    width: 30%;
+    margin: 2% 1%;
+    text-align: center;
+    float: left;
+}
+
+/* Facebook Instagram*/
+ .fa {
+    margin: 1% 5%;
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+ .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+/*fin Facebook Instagram*/
+
+.contactar aside img {
+    width: 70%;
+}
+
+.contactar aside form {
+    text-align: left;
+    margin: 25% auto;
+}
+
+.contactar label {
+    display: block;
+    margin: .5em 0 0 0;
+}
+
+/*fuentes*/
+/* @font-face {
+	font-family: 'titulos';
+	src: url(/fuentes/H1/Bangers-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'subtitulos';
+    src: url(/fuentes/H2-6/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'textos';
+    src: url(/fuentes/P/IndieFlower-Regular.ttf);
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+}
+
+h2, h3 {
+    font-family: 'Lobster', cursive;
+}
+
+p, label, li {
+    font-family: 'Indie Flower', cursive;
+} */
+
+/*fin fuentes*/

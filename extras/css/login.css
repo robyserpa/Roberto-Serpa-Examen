@@ -1,0 +1,71 @@
+.inicio {
+    clear: both;
+    text-align: left;
+    width: 100%;
+    height: 200px;
+}
+
+.inicio #formulario01 {
+    margin: 0 auto;
+    width: 30%;
+    height: 50%;
+    padding: 2%;
+    border: solid;
+    border-radius: 10px;
+}
+
+#formulario01 label {
+    width: 30%;
+    padding: 0% 5%;
+    float: left;
+}
+
+#formulario01 input {
+    width: 50%;
+    float: right;
+}
+
+#formulario01 #login {
+    width: 25%;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-right: 20%;
+    float: right;
+
+}
+
+#formulario01 #crear_usuario {
+    width: 25%;
+    text-align: center;
+    text-decoration: unset;
+    border: solid;
+    color: blueviolet;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 20%;
+    float: left;
+}
+
+.datos {
+    clear: both;
+    width: 100%;
+    border: solid; 
+    border-radius: 10px; 
+}
+
+.datos #buscar1 {
+    width: 5%;
+    margin: 0%;
+    float: none;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.misdatos {
+    width: 100%;
+    text-align: center;
+}
+
+.misdatos th, .misdatos td {
+    border: 1px solid;
+}

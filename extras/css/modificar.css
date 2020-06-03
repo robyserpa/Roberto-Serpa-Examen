@@ -1,0 +1,30 @@
+#formulario01{
+    width: 25%;
+    height: 280px;
+    margin: 1% auto;
+    background-color: lightgoldenrodyellow;
+    border: solid;
+}
+
+#formulario01 label{
+    width: 50%;
+    padding: 1%;
+    text-align: right;
+    float: left;
+}
+
+#formulario01 input{
+    width: 45%;
+    float: right;
+}
+
+#formulario01 #modificar{
+    clear: both;
+    margin-left: 5%;
+    float: left;
+}
+
+#formulario01 #cancelar{
+    float: right;
+    margin-right: 5%;
+}

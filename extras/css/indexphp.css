@@ -1,0 +1,45 @@
+#buscar1 {
+    text-align: center;
+    vertical-align: middle;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 50%;
+    margin: 5% 1%;
+    float: left;
+}
+
+#buscar1 input {
+    width: 80%;
+    margin: 3% auto;
+    float: none;
+}
+
+.datos {
+    clear: both;
+    width: 100%;
+}
+
+.datos input {
+    float: left;
+}
+
+.datos #cedula {
+    width: 200px;
+
+}
+
+.datos #buscar {
+    width: 5%;
+    margin: 0%;
+    float: none;
+}
+
+.misdatos {
+    width: 100%;
+    text-align: center;
+}
+
+.misdatos th, .misdatos td {
+    border: 1px solid;
+}
+

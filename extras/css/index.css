@@ -1,0 +1,168 @@
+/* index css*/
+
+.inicio {
+  clear: both;
+  width: 100%;
+  float: left;
+  text-align: center;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+.contderecha {
+    width: 45%;
+    margin: 1% 1%;
+    float: right;
+    text-align: center;
+}
+
+.contderecha img {
+    width: 32%;
+    margin: 1% 1%;
+}
+
+.contenido {
+    width: 50%;
+    margin: 1% 1%;
+    text-align: center;
+    float: left;
+}
+
+.contenido aside button {
+    margin: 0 10%;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+
+.galeria {
+    clear: both;
+    width: 100%;
+    background-color: aquamarine;
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+    
+}
+
+.galeria aside img {
+  width: 15%;
+}
+
+.galeria aside #cat1 {
+    margin: 5% 1%;
+}
+
+.galeria aside #cat2 {
+  width: 19%;
+  margin: 5% 1%;
+}
+
+.galeria aside #cat3 {
+  width: 19%;
+  margin: 5% 1%;
+}
+
+.galeria aside #cat4 {
+  margin: auto 1%;
+}
+
+.galeria aside #cat5 {
+  margin: 2% 1%;
+}
+
+.galeria button {
+    width: 10%;
+    border-radius: 10px;
+    margin: 10px 40%;
+}
+
+.calificar {
+    clear: both;
+    background-color: linen;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+#usuario {
+    width: 20%;
+    float: left;
+}
+
+.calificar img {
+    width: 100%;
+}
+
+/*estrellas*/
+ #form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  .calificar input[type="radio"] {
+    display: none;
+  }
+  
+  #form label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  .calificar label:hover,
+  .calificar label:hover ~ label {
+    color: orange;
+  }
+  
+  #from input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+  /*fin estrellas*/
+
+#informacion {
+    width: 79%;
+    text-align: center;
+    float: left;
+}
+
+
+.otrosu {
+    clear: both;
+    background-color: aquamarine;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    float: right;
+}
+
+.otrosu aside {
+    width: 30%;
+    margin: 0 1%;
+    float: left;
+}
+
+.otrosu aside img {
+    width: 50%;
+    margin: 0 10%;
+}
+
+.otrosu aside button {
+    width: 30%;
+    border-radius: 10px;
+}
+
